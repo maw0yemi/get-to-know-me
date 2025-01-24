@@ -303,20 +303,20 @@ h6 { font-size: 16px;}
 	display: grid;
 	padding-top: 30px;
 	padding-bottom: 30px;
-	height:620px;
+	height:660px;
 }
 
 
 #preview-shadow{
 	background-color: var(--previewShadow);
-	max-width: 590px;
+	max-width: 540px;
 	max-height: 570px;
 	padding-left: 30px;
 	padding-top: 30px;
 }
 
 #preview{
-	max-width: 580px;
+	max-width: 530px;
 	max-height:600px;
 	border:1.5px solid #17a2b8;
 	background-color: var(--previewBg);
