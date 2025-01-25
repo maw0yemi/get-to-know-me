@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     let theme = localStorage.getItem('theme');
     if (theme == null) {
-        setTheme('blue');
+        setTheme('light');
     } else {
         setTheme(theme);
     }

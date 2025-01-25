@@ -303,21 +303,21 @@ h6 { font-size: 16px;}
 	display: grid;
 	padding-top: 30px;
 	padding-bottom: 30px;
-	height:660px;
+	height:570px;
 }
 
 
 #preview-shadow{
 	background-color: var(--previewShadow);
-	max-width: 540px;
-	max-height: 570px;
+	max-width: 570px;
+	max-height: 500px;
 	padding-left: 30px;
 	padding-top: 30px;
 }
 
 #preview{
-	max-width: 530px;
-	max-height:600px;
+	max-width: 560px;
+	max-height:550px;
 	border:1.5px solid #17a2b8;
 	background-color: var(--previewBg);
 	padding:15px;
@@ -389,14 +389,28 @@ h6 { font-size: 16px;}
 	padding-bottom: 50px;
 }
 
-.post-wrapper1{
-	display: grid;
-	grid-template-columns: repeat(auto-fit, 285px);
-	gap:20px;
-	justify-content: center;
-	padding-top:25px;
-	padding-bottom: 50px;
+.post-wrapper1 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Fit exactly 5 tiles in a row */
+    gap: 10px; /* Adjust gap to ensure spacing */
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 50px;
 }
+
+.post1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid var(--borderColor);
+    -webkit-box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
+    box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
+    border-radius: 15px;
+    width: 100%; /* Let the grid control the width */
+    height: auto; /* Adjust the height to maintain aspect ratio */
+}
+
 .post{
 	display: flex;
     flex-direction: column;
@@ -408,12 +422,6 @@ h6 { font-size: 16px;}
     width: 380px; /* Fixed width */
     height: 395px; /* Fixed height */
     border-radius: 15px; /* Makes the borders round */
-}
-.post1{
-	border: 1px solid var(--borderColor);
-	-webkit-box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
-	-moz-box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
-	border-radius: 15px; /* Makes the borders round */
 }
 
 
