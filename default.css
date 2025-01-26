@@ -34,14 +34,15 @@ body *{
 
 h1, h2, h3, h4, h5, h6, strong{
 	color: var(--mainText);
-	font-family: 'Russo One', sans-serif;
-	font-weight: 500;
+	font-family: 'Times New Roman', sans-serif;
+	font-weight: 600;
 }
 
 p, li, span, label, input, textarea{
 	color: var(--secondaryText);
-	font-family: 'Roboto Mono', monospace;
+	font-family: 'Times New Roman', monospace;
 	text-align:justify;
+	font-size: 19px
 }
 
 a{
@@ -55,10 +56,10 @@ ul{
 
 h1 { font-size: 56px;}
 h2 { font-size: 36px;}
-h3 { font-size: 28px;}
-h4 { font-size: 24px;}
-h5 { font-size: 20px;}
-h6 { font-size: 16px;}
+h3 { font-size: 32px;}
+h4 { font-size: 28px;}
+h5 { font-size: 24px;}
+h6 { font-size: 20px;}
 
 
 .sidebar {
@@ -301,23 +302,23 @@ h6 { font-size: 16px;}
 .right-column{
 	grid-area: right-column;
 	display: grid;
-	padding-top: 30px;
+	padding-top: 10px;
 	padding-bottom: 30px;
-	height:570px;
+	height:660px;
 }
 
 
 #preview-shadow{
 	background-color: var(--previewShadow);
-	max-width: 570px;
-	max-height: 500px;
+	max-width: 540px;
+	max-height: 610px;
 	padding-left: 30px;
 	padding-top: 30px;
 }
 
 #preview{
-	max-width: 560px;
-	max-height:550px;
+	max-width: 620px;
+	max-height:600px;
 	border:1.5px solid #17a2b8;
 	background-color: var(--previewBg);
 	padding:15px;
@@ -461,7 +462,7 @@ h6 { font-size: 16px;}
 
 .post-intro{
 	color:#4b5156;
-	font-size: 12px;
+	font-size: 15px;
 }
 .pdfs-container {
             display: flex;
